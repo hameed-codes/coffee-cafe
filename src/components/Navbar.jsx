@@ -14,16 +14,20 @@ const Navbar = () => {
       <img src={assets.logo} className='w-50' alt="" />
 
       {/* menu-icon  */}
-      <img src={assets.menu_icon} alt="" className='sm:hidden top-3 right-3 absolute w-8' onClick={()=>{setMenuOpen(true)}} />
+      <img src={assets.menu_icon} alt="" className='sm:hidden top-4 right-3 absolute w-8' onClick={()=>{setMenuOpen(true)}} />
 
-      {/* links  */}
-      <div className={`flex max-sm:flex-col items-center gap-7 font-semibold text-lg xl:gap-10 max-sm:bg-primary max-sm:min-h-screen top-0 right-0 bottom-0 max-sm:fixed  ${!menuOpen ? 'max-sm:w-0 overflow-hidden' : 'max-sm:py-30 max-sm:w-60'}`}>
+  
+      <div className={`flex top-0 z-20 max-sm:flex-col items-center gap-7 font-semibold xl:gap-10 max-sm:bg-primary max-sm:min-h-screen top-0 right-0 bottom-0 max-sm:fixed  ${!menuOpen ? 'max-sm:w-0 overflow-hidden' : 'max-sm:py-30 max-sm:w-60'} transition-all duration-200`}>
+
+        {/* menu-close  */}
+        <img src={assets.close_icon} className='sm:hidden top-4 right-4 absolute w-8' alt="" onClick={()=>{setMenuOpen(false)}}/>
+        {/* LINKS  */}
+        <a href="#home" className='sm:hover:border-b'>Home</a>
+        <a href="#services" className='sm:hover:border-b' >Services</a>
+        <a href="#about" className='sm:hover:border-b'>About</a>
 
 
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <button className='rounded-full flex items-center font-bold bg-primary/60 hover:scale-105 hover:cursor-pointer px-4 py-2 transition-all duration-400 max-sm:hidden' >Order Now</button>
+        <button className='rounded-full flex items-center text-sm font-bold bg-tertiary hover:scale-105 hover:cursor-pointer px-4 py-2 transition-all duration-400 max-sm:hidden sm:m-1' >Order Now</button>
 
       </div>
     </div>
