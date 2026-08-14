@@ -17,3 +17,16 @@
     --color-secondary: #45191c;
     --color-tertiary: #693f38;
 }
+
+@keyframes spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin-animation 40s linear infinite;
+}
