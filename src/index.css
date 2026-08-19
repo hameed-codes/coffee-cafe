@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
 
 /* logo font  */
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Manrope:wght@200..800&family=Pacifico&display=swap');
 
 
 @import "tailwindcss";
@@ -11,6 +11,14 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+
+.font-logo   {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 @theme {
     --color-primary: #250a03;
@@ -29,4 +37,32 @@
 
 .spin {
     animation: spin-animation 40s linear infinite;
+}
+
+
+.bg_image1 {
+    background-image: url(assets/bg_image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bg_image2 {
+    background-image: url(assets/bg_image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bg_image3 {
+    background-image: url(assets/bg_image3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }

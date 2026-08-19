@@ -9,7 +9,7 @@ const Navbar = () => {
   console.log(menuOpen);
 
   return (
-    <div className='flex items-center px-4 sm:px-10 lg:px-22 xl:px-36 text-white bg-secondary justify-between'>
+    <div className='flex items-center px-4 sm:px-10 lg:px-22 xl:px-36 text-white bg-secondary justify-between 2xl:px-50 z-20'>
       {/* logo  */}
       <img src={assets.logo} className='w-50' alt="" />
 
