@@ -29,7 +29,7 @@ const Services = () => {
 
         {/* title section */}
         <div className='flex items-center justify-center mb-20 font-logo'>
-            <h2 className='text-4xl text-gray-800 font-logo'>Best Coffee For You</h2>
+            <h2 className='max-sm:text-3xl text-4xl text-gray-800 font-logo'>Best Coffee For You</h2>
         </div>
 
         {/* card section */}

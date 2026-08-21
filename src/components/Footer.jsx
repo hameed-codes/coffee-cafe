@@ -10,9 +10,9 @@ const Footer = () => {
             <div className='px-4 sm:px-10 lg:px-20 xl:px-30 2xl:px-40 py-15 flex max-sm:flex-col sm:gap-9'>
 
                 {/* footer left section  */}
-                <div className='flex flex-col justify-center mb-20 font-logo gap-7 w-150'>
+                <div className='flex flex-col justify-center mb-20 font-logo gap-7'>
                     <h2 className='text-4xl text-white font-logo'>Coffee Cafe</h2>
-                    <p className='text-xl text-white w-130'>Crafted Coffee, Cozy Vibes, Unforgettable Moments; Your Perfect Espresso Escape</p>
+                    <p className='text-xl text-white md:w-5/6'>Crafted Coffee, Cozy Vibes, Unforgettable Moments; Your Perfect Espresso Escape</p>
 
                     <button className='text-white w-60 bg-secondary rounded-full p-3 hover:scale-110 transition-all duration-300 cursor-pointer '  ><a href="">Visit Our YouTube Channel</a></button>
                 </div>

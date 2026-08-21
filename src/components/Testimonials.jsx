@@ -49,7 +49,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className='flex flex-col px-4 sm:px-10 lg:px-20 xl:px-36 2xl:px-50 py-15 gap-8'>
+        <div className='flex flex-col px-4 sm:px-10 lg:px-20 xl:px-36 2xl:px-50 py-20 gap-8'>
             {/* title */}
             <div className='flex items-center justify-center mb-8 font-logo'>
                 <h2 className='text-4xl text-gray-800 font-logo'>Testimonials</h2>
