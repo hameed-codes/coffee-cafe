@@ -1,16 +1,96 @@
-# React + Vite
+# ☕ Coffee Cafe — React Frontend Web Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Responsive coffee shop landing page built with React, Vite, and Tailwind CSS
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Click](https://coffee-cafe-ruddy.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![hero](./src/assets/screenshot_1.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🦸 Hero section with a slowly rotating coffee image and gradient call-to-action buttons
+- 🧭 Responsive Navbar with smooth-scroll anchor links and an animated mobile sidebar menu
+- ☕ Services section with hover-animated cards rendered from a data array
+- 📖 About section with icon highlights
+- 📱 App download section with App Store / Play Store badges
+- 💬 Testimonials carousel with autoplay, pause on hover, and 3 / 2 / 1 slides by breakpoint
+- 📰 Footer with link columns and contact info
+- 🎨 Custom Tailwind theme colors and Google Fonts (Roboto, Pacifico)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Built With
+
+- React 19
+- Vite
+- Tailwind CSS v4
+- react-slick + slick-carousel
+- react-icons
+- Oxlint
+- Google Fonts (Roboto, Pacifico)
+- JavaScript (ES6+)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A recent Node.js LTS version
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/hameed-codes/coffee-cafe.git
+cd coffee-cafe
+npm install
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+coffee-cafe/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── MobileStores.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ServiceCard.jsx
+│   │   ├── Services.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── TestimonialsCards.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Made with ❤️ by [Hameed Khan](https://github.com/hameed-codes)**  
+[GitHub](https://github.com/hameed-codes) · [LinkedIn](https://linkedin.com/in/hameed-khan-86157339a)
